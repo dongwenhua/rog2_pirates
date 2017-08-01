@@ -1,0 +1,14 @@
+
+hash.h 的文件 在BUILD COMMAND 的时候报warning
+
+UnrealBuildTool: C:\Users\rog2\jenkins\workspace\pirates-client-windows\pirates-windows
+
+\src\Plugins\Protobuf\ThirdParty\protobuf\3.0.0\include\google/protobuf/stubs/hash.h(50): 
+
+warning C4668: '_LIBCPP_STD_VER' is not defined as a preprocessor macro, replacing with 
+
+'0' for '#if/#elif'
+
+因为某个引擎版本后在windows下打开了一个特定的warning选项，导致这个warning出现，没有什么影
+
+响，这种第三方库的代码我们也不打算去改，除非是有重要bug之类

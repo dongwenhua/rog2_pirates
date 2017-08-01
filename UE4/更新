@@ -1,0 +1,5 @@
+引擎更新后安卓打包的相关配置失效
+需要执行引擎文件夹根目录下的
+Setup.command
+sh Setup.sh -include=Android
+重新配置安卓资源

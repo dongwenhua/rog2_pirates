@@ -1,0 +1,14 @@
+外网aws服务器客户端更新流程
+清数据库
+database-pirates-reset-aws-cn
+发布 ds
+dungeon-send-2-s3 pirates-dungeonserver-linux
+发布 hb
+hubserver-send-2-s3 pirates-hubserver-linux
+发布 gdb
+gamedb-send-2-s3 gamedb
+发布 hydra
+hydra-server-send-2-s3 hydra-server
+发布 client
+ios-client-send-2-s3 pirates-dev
+左侧任务依赖右侧已构建任务

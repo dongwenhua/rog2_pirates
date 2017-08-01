@@ -3,3 +3,16 @@
 Setup.command
 sh Setup.sh -include=Android
 重新配置安卓资源
+
+
+
+使用Swarm Agent 联机编译  (光照编译)
+https://intranet.rog2.org/docs/unreal-engine/rendering/how-to-configure-swarm-agent-to-
+
+run-in-network
+9.引擎版本有大更新的时候需要rebuild工程【UnrealLghtmass】后再打编辑器包这样才不影响美术编
+
+辑器的光照
+http://rog2kfadmin@10.230.10.107/personal/dongwenhua/rebuild%E3%80%90UnrealLghtmass
+
+%E3%80%91.jpg
